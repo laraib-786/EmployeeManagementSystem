@@ -45,19 +45,19 @@ public class Employee {
 	public String getFirstName() {
 		return firstName;
 	}
-	private void setFirstName(String firstName) {
+	public void setFirstName(String firstName) {
 		this.firstName = firstName;
 	}
 	public String getLastName() {
 		return lastName;
 	}
-	private void setLastName(String lastName) {
+	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
 	public String getEmailId() {
 		return emailId;
 	}
-	private void setEmailId(String emailId) {
+	public void setEmailId(String emailId) {
 		this.emailId = emailId;
 	}
 
